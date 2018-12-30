@@ -23,4 +23,16 @@ textarea {
     max-width: 280px;
 }
 
+.table.basket-table > thead > tr > th,
+.table.basket-table > tbody > tr > th,
+.table.basket-table > tfoot > tr > th,
+.table.basket-table > thead > tr > td,
+.table.basket-table > tbody > tr > td,
+.table.basket-table > tfoot > tr > td {
+    text-align: center;
+    vertical-align: middle;
+}
 
+.basket-table > tbody > tr:first-child, td:first-child {
+    width:92px;
+}
